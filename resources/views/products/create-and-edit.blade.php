@@ -204,7 +204,9 @@
                 document.querySelector("[name='description']").value = quill.root.innerHTML;
             } else if (step === 2) {
                 const images = document.querySelector("[name='images[]']").files.length;
-                if (images === 0) {
+                const existingImages = {{ !empty($data->product_images) && count($data->product_images) > 0 ? 'true' : 'false' }};
+
+                if (images === 0 && !existingImages) {
                     alert("Please upload at least one image.");
                     return false;
                 }
