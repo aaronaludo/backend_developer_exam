@@ -1,4 +1,4 @@
-## Installation Guide
+## Installation Process
 
 Follow these steps to set up and run the project after cloning from GitHub.
 
