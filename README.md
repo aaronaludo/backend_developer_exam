@@ -55,16 +55,3 @@ php artisan serve
 Now, visit: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
 ---
-
-## Features
-- Laravel framework
-- Database migrations and seeding
-- Authentication (if included)
-- REST API (if applicable)
-- Realtime functionality with WebSockets (if applicable)
-
-## Contributing
-Feel free to submit a pull request or open an issue.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
