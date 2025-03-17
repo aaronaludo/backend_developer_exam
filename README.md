@@ -6,8 +6,8 @@ Follow these steps to set up and run the project after cloning from GitHub.
 
 ### 1. Clone the Repository
 ```bash
-git clone git@github.com:aaronaludo/backend_developer_exam.git
-cd backend_developer_exam
+git clone https://github.com/your-username/your-laravel-project.git
+cd your-laravel-project
 ```
 
 ### 2. Install Dependencies
@@ -31,6 +31,10 @@ php artisan key:generate
 3. Click on **Databases** in the top menu.
 4. Enter a name for your database (e.g., `your_database_name`).
 5. Click **Create**.
+1. Open your browser and go to **[http://localhost/phpmyadmin](http://localhost/phpmyadmin)**.
+2. Click on **Databases** in the top menu.
+3. Enter a name for your database (e.g., `your_database_name`).
+4. Click **Create**.
 
 ### 6. Configure Database  
 Edit the `.env` file and update the following database settings:
@@ -49,7 +53,15 @@ DB_PASSWORD=your_db_password
 php artisan migrate:fresh --seed
 ```
 
-### 8. Start Development Server
+### 8. Create a Storage Link
+```bash
+php artisan storage:link
+```
+```bash
+php artisan migrate:fresh --seed
+```
+
+### 9. Start Development Server
 ```bash
 php artisan serve
 ```
