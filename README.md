@@ -1,5 +1,3 @@
-# Laravel Project
-
 ## Installation Guide
 
 Follow these steps to set up and run the project after cloning from GitHub.
