@@ -57,9 +57,6 @@ php artisan migrate:fresh --seed
 ```bash
 php artisan storage:link
 ```
-```bash
-php artisan migrate:fresh --seed
-```
 
 ### 9. Start Development Server
 ```bash
