@@ -26,10 +26,11 @@ php artisan key:generate
 ```
 
 ### 5. Create a Database
-1. Open your browser and go to **[http://localhost/phpmyadmin](http://localhost/phpmyadmin)**.
-2. Click on **Databases** in the top menu.
-3. Enter a name for your database (e.g., `your_database_name`).
-4. Click **Create**.
+1. Open **XAMPP** and start **Apache** and **MySQL**.
+2. Open your browser and go to **[http://localhost/phpmyadmin](http://localhost/phpmyadmin)**.
+3. Click on **Databases** in the top menu.
+4. Enter a name for your database (e.g., `your_database_name`).
+5. Click **Create**.
 
 ### 6. Configure Database  
 Edit the `.env` file and update the following database settings:
